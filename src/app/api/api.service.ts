@@ -7,7 +7,8 @@ import { catchError } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class ApiService {
-  private apiUrl = 'https://api.themoviedb.org/3';
+  // private apiUrl = 'https://api.themoviedb.org/3';
+  private apiUrl = 'https://adultempire.netlify.app';
   private apiKey = '7789cead69879c44ca9038698525cb39'; // your API key
   private language = 'en-US';
 
